@@ -1,0 +1,40 @@
+Example 1
+==========
+Exercise: Create a Class for a Bank Account
+
+Create a class called BankAccount.
+The BankAccount class should have attributes: account_number (a string) and balance (a float).
+Implement methods for depositing and withdrawing money from the account.
+Implement a method to display the account details (account number and balance).
+
+Example 2
+=========
+Exercise: Create a basic class for a bank account.
+In this exercise:
+
+We create a BankAccount class with methods for depositing, withdrawing, getting the balance, and displaying account information.
+The __init__ method initializes a bank account with an account holder's name and an optional initial balance (defaulted to 0 if not provided).
+The deposit method allows you to deposit a positive amount into the account and updates the balance accordingly.
+The withdraw method allows you to withdraw funds if there are sufficient funds available and updates the balance.
+The get_balance method returns the current balance.
+The display_account_info method displays the account holder's name and balance.
+Finally, we test the BankAccount class by creating two accounts, making deposits and withdrawals, and displaying account information.
+
+Example 3
+===========
+Creating a comprehensive case study for Object-Oriented Programming (OOP) in Python involves building a practical example that demonstrates various OOP principles like encapsulation, inheritance, polymorphism, and abstraction. In this case study, we'll create a simple system for managing a university's student and faculty information.
+
+Let's define the classes and their relationships:
+
+Person class:
+
+Properties: name, age
+Methods: display_info
+Student class (inherits from Person):
+
+Properties: student_id, courses
+Methods: display_info, enroll_course, display_courses
+Faculty class (inherits from Person):
+
+Properties: employee_id, courses_taught
+Methods: display_info, assign_course, display_courses_taught

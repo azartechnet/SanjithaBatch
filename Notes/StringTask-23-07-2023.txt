@@ -1,0 +1,29 @@
+
+In Python, there are several built-in string functions that you can use to manipulate and work with strings. Here are some commonly used string functions and their descriptions:
+
+len(): Returns the length of the string.
+str(): Converts a non-string data type to a string.
+upper(): Converts all characters in the string to uppercase.
+lower(): Converts all characters in the string to lowercase.
+capitalize(): Converts the first character to uppercase and the rest to lowercase.
+title(): Converts the first character of each word to uppercase and the rest to lowercase.
+count(substring): Returns the number of occurrences of a substring in the string.
+find(substring): Returns the index of the first occurrence of a substring in the string, or -1 if not found.
+replace(old, new): Returns a new string where all occurrences of 'old' are replaced with 'new'.
+split(separator): Splits the string into a list of substrings based on the separator.
+join(iterable): Concatenates elements of an iterable (e.g., a list) into a single string using the specified string as the separator.
+
+
+Task
+=====
+Program to Check if a String is a Palindrome
+
+Program to Count the Number of Words in a String
+
+Program to Reverse Words in a String
+
+Program to Find the Longest Word in a String
+
+Program to Check if Two Strings are Anagrams
+
+Program to Remove Duplicate Characters from a String

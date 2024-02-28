@@ -1,0 +1,15 @@
+
+Tuples are similar to lists in Python, but they are immutable, meaning their elements cannot be changed after creation. Here are some exercises to practice working with tuples in Python:
+
+Create a tuple
+Access elements of a tuple
+Iterate through a tuple
+Concatenate tuples
+Tuple unpacking
+Find the length of a tuple
+Check if an element exists in a tuple
+Count occurrences of an element in a tuple
+Find the index of an element in a tuple
+Convert a tuple to a list
+Convert a list back to a tuple
+Compare tuples (element-wise)

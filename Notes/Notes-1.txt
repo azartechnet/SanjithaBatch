@@ -1,0 +1,3624 @@
+What is Program?
+ --set of instructions
+
+
+I/P----------------O/P
+Instructions----------output
+
+
+Different based application
+============================
+1.Window based application---Python--Tkinter
+2.Web Based application----Python Django
+3.Android based application
+4.DataAnalysis--DataScience(Numpy,Pandas,Matplotlib)
+Introduction of Python
+======================
+--Python is a simple,general purpose,high level
+ and object oriented programming language.(oops)
+--Compiler Oriented Programming language
+--Interpreted Programming language.
+
+It Supports Object oriented Programming approach 
+to develop application.
+
+
+Python History:
+===============
+Python was invented by Guido van Rossum in 1991 
+at CWI in Netherland.
+
+There is also a fact behind the choosing name Python.
+
+Guido van Rossum was a fan of the Popular BBC Comedy Show
+ of the time "Monty Python's Flying Circus" 
+So he decided to pick the name Python for his 
+newly created the Programming language.
+
+Why learn Python?
+=================
+1.Developing WindowBased Application and Web Based Application
+
+2.Easy to use and Learn
+
+3.Interpreted Language
+
+4.Object-oriented language
+
+5.Open Source Language
+
+6.GUI Programming Support
+
+7.Dynamic Memory Allocation
+
+
+Where is Python Used?
+======================
+1.DataScience
+
+2.DataMinig
+
+3.Desktop Application
+
+4.Consolebased application
+
+5.Mobile Application
+
+6.Software Development
+
+7.AI
+
+8.Machine Learning Concepts
+
+
+9.Image Processing
+
+10.Speech Recongnitions
+
+
+Python Popular Frameworks and Libraries
+========================================
+
+--Web development (server side)--Django,Flask,CherryPy
+
+
+--GUI based application--TK,PyGTK,PyQT,PyJS..etc
+
+
+--Machine Learning--TensorFlow,PyTorch,scikit,matplotlib,scipy
+
+--Mathematice---Numpy,Pandas..etc
+
+
+Variables:
+==========
+--To holding the values
+
+a=100
+
+name="azar"
+
+print(a)
+
+print(name)
+
+pid=1001
+print(pid)
+1001
+name="PythonSession"
+print(name)
+PythonSession
+name
+'PythonSession'
+type(name)
+<class 'str'>
+type(pid)
+<class 'int'>
+f1=2.55
+print(f1)
+2.55
+print(type(f1))
+<class 'float'>
+
+
+Datatype
+=========
+--A datatype is an allocate the memory of the variable.
+
+
+a=100(integer)
+
+
+name="azar"(String)
+
+
+f1=2.5(fractionvalue)
+
+
+function
+=========
+--pre define function
+print()
+int(input())
+input()
+float(input())
+double(input())
+type()
+
+p=100
+print(p)
+100
+type(p)
+<class 'int'>
+name=input("Enter the name is::")
+Enter the name is::mohamed
+print(name)
+mohamed
+type(name)
+<class 'str'>
+p=input("Enter the p is::")
+Enter the p is::
+100
+print(p)
+
+p=input("Enter the p is::")
+Enter the p is::
+100
+100
+type(p)
+<class 'str'>
+
+a1=input("Enter the a1 value is::")
+Enter the a1 value is::100
+b1=input("Enter the b1 value is::")
+Enter the b1 value is::100
+c=a1*b1
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    c=a1*b1
+TypeError: can't multiply sequence by non-int of type 'str'
+a1=int(input("Enter the a1 value is::"))
+Enter the a1 value is::10
+b1=int(input("Enter the b1 value is::"))
+Enter the b1 value is::10
+c=a1*b1
+c
+100
+--user define function---user give as own functions
+
+a=100
+print(a)
+100
+name="mohamed"
+print(name)
+mohamed
+b=2.5
+print(b)
+2.5
+type(a)
+<class 'int'>
+type(name)
+<class 'str'>
+type(b)
+<class 'float'>
+name=input("Enter the value is:")
+Enter the value is:mohamed
+print(name)
+mohamed
+a=input("Enter the a value:")
+Enter the a value:100
+b=input("Enter the b value:")
+Enter the b value:200
+c=a*b
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    c=a*b
+TypeError: can't multiply sequence by non-int of type 'str'
+type(a)
+<class 'str'>
+type(b)
+<class 'str'>
+a=int(input("Enter the a value is:"))
+Enter the a value is:100
+b=int(input("Enter the b value is:"))
+Enter the b value is:200
+c=a+b
+print(c)
+300
+type(a)
+<class 'int'>
+type(b)
+<class 'int'>
+
+
+Operators:
+==========
+--The Operator is a symbol that perform a
+ certain operation between two operands,
+
+Operators----->+,-,*,/
+
+Operands----->a,b,c
+
+c=a+b
+
+Different types of operators:
+=============================
+1.Arithmetic Operators
++,-,/,%,*,//
+p1=int(input("Enter the p1 value:"))
+Enter the p1 value:10
+p2=int(input("Enter the p2 value::"))
+Enter the p2 value::20
+print("Add::",(p1+p2))
+Add:: 30
+print("Sub::",(p1-p2))
+Sub:: -10
+print("Mul::",(p1*p2))
+Mul:: 200
+print("Division::",(p1/p2))
+Division:: 0.5
+print("FloorDivision::",(p1//p2))
+FloorDivision:: 0
+print("Module::",(p1%p2))
+Module:: 10
+2.Comparsion
+<,<=,>,>=,==,!= 
+a1=100
+b1=200
+print(a1>b1)
+False
+print(a1<b1)
+True
+print(a1==b1)
+False
+print(a1!=b1)
+True
+p1
+10
+p2
+20
+print("lessthan::",(p1<p2))
+lessthan:: True
+print("Greaterthan::",(p2>p1))
+Greaterthan:: True
+print("Equal to::",(p1==p2))
+Equal to:: False
+print("Not Equal to::",(p1!=p2))
+Not Equal to:: True
+3.Assignment 
+=+,=-,=/,=%,=*
+
+4.Logical
+and,or,not
+print("LogicalAND::",(p1<p2)and(p2>p1))
+print("LogicalAND::",(p1>p2)and(p2>p1))
+print("LogicalAND::",(p1>p2)and(p2==p1))
+print("LogicalOR::",(p1>p2)or(p2>p1))
+print("LogicalNOT::",not(p1>p2))
+5.Bitwise
+
+&,|,^,~,<<,>>
+
+6.Membership
+in,not in
+
+7.Identity
+
+is,is not,id
+
+a=10
+b=20
+c=a*b
+print(c)
+200
+a=20
+b=10
+c=a%b
+print(c)
+0
+a=10
+b=20
+c=a/b
+c
+0.5
+c=a//b
+c
+0
+a=100
+b=200
+print(a>b)
+False
+print(b<a)
+False
+print(b>a)
+True
+print(a==b)
+False
+print(a!=b)
+True
+True
+
+LogicalAND
+==========
+C1   C2	R
+T	T	T
+T	F	F
+F	T	F
+F	F	F
+
+LogicalOR
+=========
+C1	C2	R
+T	T	T
+T	F	T
+F	T	T
+F	F	F
+
+LogicalNOT
+==========
+C1 	R
+T	F
+F	T
+
+a=100
+b=200
+print((a<b)and(b>a))
+True
+print((a>b)and(b>a))
+False
+print((a>b)and(b<a))
+False
+print((a>b)or(b>a))
+True
+print((a<b)or(b<a))
+True
+print(not(a<b))
+False
+print(not(a>b))
+True
+
+MemberShip Operators & Identity Operator
+=========================================
+a=100
+b=100
+print(a is b)
+True
+a1=200
+b1=100
+print(a1 is b1)
+False
+id(a)
+140709680508808
+id(b)
+140709680508808
+id(a1)
+140709680512008
+id(b1)
+140709680508808
+
+Python ControlStatements:
+=========================
+--ControlStatement make to given some conditions
+
+1.Branching
+
+2.Looping
+
+1.Branching---is an single time executions
+
+2.Looping----is an iteration process
+
+
+Braching:
+========
+1.if statment
+
+2.if-else statement
+
+3.Nested if-else statement
+
+4.Elif ladder
+
+
+Syntax:
+=======
+if(exp):
+  //code
+
+
+syntax:
+=======
+if(exp-1):
+  //code
+else:
+  //code
+
+
+syntax:
+=======
+if(exp-1):
+    if(exp-2):
+         //code
+    else:
+         //code
+else:
+    //code
+
+Elif ladder(Task)
+==========
+tot=m1+m2+m3
+Syntax:
+=======
+if(exp-1):
+   //code
+elif(exp-2):
+  //code
+elif(exp-3):
+  //code
+else:
+ //code
+
+
+Looping Concepts
+================
+--Iteration Process is an looping
+
+for loop
+Nested for loop
+While loop
+
+Syntax:
+=======
+for <variable> in range(start,stop,step):
+    //code
+
+
+Syntax:
+=======
+for <variable> in range(start,stop,step):
+      for <variable> in range(start,stop,step):
+                 //code
+
+
+Syntax:
+======
+
+inital value:
+while(exp):
+  //code
+  //incr or drc
+
+for k in range(0,10,2):
+          print("k value is::",k)
+
+          
+k value is:: 0
+k value is:: 2
+k value is:: 4
+k value is:: 6
+k value is:: 8
+
+for k in range(1,10,2):
+          print("K value is::",k)
+
+          
+K value is:: 1
+K value is:: 3
+K value is:: 5
+K value is:: 7
+K value is:: 9
+
+for i in range(10):
+          print("I value is::",i)
+
+          
+I value is:: 0
+I value is:: 1
+I value is:: 2
+I value is:: 3
+I value is:: 4
+I value is:: 5
+I value is:: 6
+I value is:: 7
+I value is:: 8
+I value is:: 9
+
+
+Nested for loop
+===============
+for x in range(65,70):
+    for y in range(1,6):
+        print(chr(x),end="")
+    print()
+Reference in Programs
+
+for i in range(3):
+    for j in range(3):
+        print("I value is::",i,"J value is::",j)
+
+        
+I value is:: 0 J value is:: 0
+I value is:: 0 J value is:: 1
+I value is:: 0 J value is:: 2
+I value is:: 1 J value is:: 0
+I value is:: 1 J value is:: 1
+I value is:: 1 J value is:: 2
+I value is:: 2 J value is:: 0
+I value is:: 2 J value is:: 1
+I value is:: 2 J value is:: 2
+
+Python Break Statement
+=======================
+The break is a keyword in Python which is used to bring the Program control out of the loop.
+
+Python Pass Statament
+=====================
+The pass statement is also known as the null statement.The Python mediator doesn't overlook a Remark
+
+Python String
+=============
+Python String is the Collection of the Characters surrounded by Single qutoes,double quotes or triple quotes.
+Each Characters is encoded in the ASCII or Unicode characters.So we can say that Python Strings are also called
+the collection of unicode characters.
+
+Function
+=========
+--A function is divided into small programs
+
+--A function is performed an specific action
+
+
+--Using as keyword called def
+
+
+def <<function>>:
+   //code
+   //function body
+function calling
+
+Default Parameter value:
+=======================
+If we call the function without argument it uses the default value.
+
+The Pass statament
+===================
+function definitions cannot be empty,but if you for some reason have a function definition with no content.
+To Write a pass statement to avoid getting an error.
+def fun1():
+    print("welcome")
+def fun2():
+ pass   
+fun1()
+
+def myfun():
+   pass
+
+Functions-Recursion
+===================
+---Python also accepts function recursion which means a define function can call itself.
+
+---Recursion is a common mathematical and Programming concepts.It means that a function call itself.
+def fun1(k):
+    if(k>0):
+        print("k value::",k)
+        result=k+fun1(k-1)
+        print("check",k-1)
+        print("If",result)       
+    else:
+        result=0
+
+    return result
+print("Recursion Example")
+fun1(3)
+
+Pass by Reference and Pass by value
+===================================
+In the Python Programming language,all parameters are passed by reference.It show that if we modify the worth of contention
+within a capability the calling capability will similarly mirror the change.
+
+def product(items):
+    products=[]
+    print(items)
+    for i in items:
+        products.append(i**2)
+    #return products
+    print(products)
+
+my1=[10,20,30]
+product(my1)
+#my_result=product(my1)
+#print("Your ProductId is::",my_result)
+
+Function Arguments
+==================
+1.Default Arguments
+2.Keyword Arguments
+3.Required Arguments
+
+#Default Arguments
+def student(firstname,lastname,college="vsb"):
+  print("Your data is::",firstname,lastname,college);
+student("azar","mohamed")
+
+(2)
+def fun1(e1,e2):
+    print("value-1 is::",e1)
+    print("value-2 is::",e2)
+
+fun1(100,200)
+fun1(e1=10,e2=20)
+
+
+Function Lambda
+===============
+--A lambda function is a small anonymous function.
+
+--A lambda function can take any number of arguments but can only have one expression.
+
+Syntax:
+=======
+lambda arguments:expression
+
+#x=lambda a:a+10
+#print(x(5))
+
+x=lambda a,b:a*b
+print(x(5,6))
+
+
+String Operations in Python
+=====================
+--Python has a set of built in methods that you can use on Strings
+
+capitalize(): Capitalizes the first character of a string.
+casefold(): Returns a casefolded version of the string. Casefolding is similar to lowercasing but more aggressive because it is intended to remove all case distinctions in a string.
+center(width[, fillchar]): Returns a centered string of length width.
+count(sub[, start[, end]]): Returns the number of occurrences of substring sub in the string.
+startsWith(prefix[, start[, end]]): Returns True if the string starts with the specified prefix; otherwise, returns False.
+endsWith(suffix[, start[, end]]): Returns True if the string ends with the specified suffix; otherwise, returns False.
+find(sub[, start[, end]]): Returns the lowest index of the substring sub.
+format(*args, **kwargs): Formats the string according to the specified format.
+index(sub[, start[, end]]): Returns the lowest index of the substring sub.
+isalnum(): Returns True if all characters in the string are alphanumeric.
+isalpha(): Returns True if all characters in the string are alphabetic.
+isdecimal(): Returns True if all characters in the string are decimals.
+isdigit(): Returns True if all characters in the string are digits.
+islower(): Returns True if all cased characters in the string are lowercase and there is at least one cased character, false otherwise.
+isspace(): Returns True if all characters in the string are whitespace.
+isupper(): Returns True if all cased characters in the string are uppercase and there is at least one cased character, false otherwise.
+join(iterable): Joins the elements of an iterable with the string as a separator.
+lstrip([chars]): Returns a copy of the string with leading characters removed.
+rstrip([chars]): Returns a copy of the string with trailing characters removed.
+strip([chars]): Returns a copy of the string with leading and trailing characters removed.
+replace(old, new[, count]): Returns a copy of the string with all occurrences of substring old replaced by new.
+swapcase(): Returns a copy of the string with uppercase characters converted to lowercase and vice versa.
+upper(): Returns a copy of the string with all characters converted to uppercase.
+zfill(width): Returns the string left-filled with zeros to a total of width characters.
+
+str1="welcome"
+print(str1)
+welcome
+name="hello"
+print(name[0:3])
+hel
+print(name[2::])
+llo
+print(name[-3:-1])
+ll
+print(name[0:2])
+he
+print(name[:3])
+hel
+print(name[:])
+hello
+
+Reassigning Strings
+====================
+name[0]='a'
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    name[0]='a'
+TypeError: 'str' object does not support item assignment
+name="azar"
+name
+'azar'
+
+String Operators
+=================
++,*,[],[:],in,not in,r/R,%,
+
+str="hello"
+str1="world"
+print(str*3)
+hellohellohello
+print(str+str1)
+helloworld
+print(str[2:4])
+ll
+print('w' in str)
+False
+
+print('w' in str1)
+True
+print('wo' not in str1)
+False
+print('wo' in str1)
+True
+print(r'c://Program Files')
+c://Program Files
+print("The string is:%s"%(str))
+The string is:hello
+
+format()method
+===============
+The format()method is the most flexible and useful methods in formatting strings.
+The curly braces{}are used as the placeholder in the String and replaced by the format()method.
+
+#using curly braces
+print("{} and {} both are the best friend".format("azar","mohamed"))
+azar and mohamed both are the best friend
+
+#Positional Arguments
+print("{1} and {0} best players".format("azar","mohamed"))
+mohamed and azar best players
+
+#Keyword Arguments
+print("{a},{b},{c}".format(a="azar",b="mohamed",c="AS"))
+azar,mohamed,AS
+
+Python String Formatting
+========================
+Integer=10
+Float=1.2
+String="azar"
+print("Hi i am Integer..My Value is::%d\nHi I am float..My value is %f\nHi I am String..My value is %s")
+Hi i am Integer..My Value is::%d
+Hi I am float..My value is %f
+Hi I am String..My value is %s
+print("Hi i am Integer..My Value is::%d\nHi I am float..My value is %f\nHi I am String..My value is %s"%(Integer,Float,String))
+Hi i am Integer..My Value is::10
+Hi I am float..My value is 1.200000
+Hi I am String..My value is azar
+
+
+String Functions:
+================
+str1="welcome"
+print(str1.capitalize())
+Welcome
+print(str1.casefold())
+welcome
+str2="WELCOME"
+print(str2.casefold())
+welcome
+str3="Hello welcome"
+res=str3.center(20)
+print("old value::",str3)
+old value:: Hello welcome
+print("new value::",res)
+new value::    Hello welcome    
+str3
+'Hello welcome'
+count(str3,0,5)
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    count(str3,0,5)
+NameError: name 'count' is not defined. Did you mean: 'round'?
+str3
+'Hello welcome'
+str5=str3.count('0')
+print(str5)
+0
+str5=str3.count('l')
+str5
+3
+str5=str3.count('o')
+str5
+2
+print(str3.startswith('H'))
+True
+print(str3.startswith('k'))
+False
+print(str3.endswith('e'))
+True
+print(str3.isalnum())
+False
+str3
+'Hello welcome'
+print(str3.index('Hello',0,5))
+0
+s1='123a'
+s1.isalpha()
+False
+s1.isalnum()
+True
+s1.isdigit()
+False
+s1.isdecimal()
+False
+s2=123
+s2
+123
+s2="123"
+s2.isdigit()
+True
+s2.isdecimal()
+True
+s3="azar"
+s3.islower()
+True
+s3.isupper()
+False
+print(s3.upper())
+AZAR
+print(s3.lower())
+azar
+
+lstrip()
+========
+Python lstrip method is used to remove all leading characters from the String.
+
+lstrip(char)
+
+str="welcome "
+str2=str.lstrip()
+print(str2)
+welcome 
+str=" welcome"
+str2=str.lstrip()
+print(str2)
+welcome
+str="welcome "
+str3=str.rstrip()
+print(str3)
+welcome
+str4=" welcome "
+str5=str4.strip(" ")
+print(str5)
+welcome
+r1="@welcome@"
+r2=r1.strip('@')
+print(r2)
+welcome
+str6=str4.lstrip('w')
+str6
+'elcome'
+
+str6=str4.lstrip('w')
+str6
+'elcome'
+t1="This is good batch"
+t3=t1.replace('is','was')
+t3
+'Thwas was good batch'
+t3=t1.replace('was','is',-2)
+t3
+'This is good batch'
+t3=t1.replace('is','was',-1)
+t3
+'Thwas was good batch'
+t3=t1.replace('is','was',1)
+t3
+'Thwas is good batch'
+t3=t1.replace('is','was',2)
+t3
+'Thwas was good batch'
+
+rsplit
+======
+Python rsplit() method separates the String and return a list.
+
+It splits from the right using seperator as a delimiter.
+
+It separator is not specified any whitespace string is a separator.
+
+rsplit(sep=None,maxsplit=-1)
+
+sep:A string parameter acts as a seperator
+
+maxsplit:Number of times split perfomed.
+
+str1="Livewire is best"
+str2=str1.rsplit()
+print(str2)
+['Livewire', 'is', 'best']
+str1="Livewire is best"
+str2=str1.rsplit('is')
+print(str2)
+['Livewire ', ' best']
+str1="Livewire is best"
+str2=str1.rsplit('e')
+str2
+['Liv', 'wir', ' is b', 'st']
+
+str1="Livewire is best"
+
+str2=str1.rsplit('e',1)
+str2
+['Livewire is b', 'st']
+str1="Livewire is best"
+str2=str1.rsplit('e',0)
+str2
+['Livewire is best']
+str2=str1.rsplit('e',0)
+str2=str1.rsplit('e',2)
+str2
+['Livewir', ' is b', 'st']
+
+(Task)
+Method
+========
+Zfill
+swapcase()
+splitlines()
+rjust()
+rfind()
+ljust()
+partition()
+
+
+List
+=====
+List are used to store multiple items in a single variable.
+
+a=[10,20,30,40]
+a
+(10, 20, 30, 40)
+type(a)
+<class 'tuple'>
+a=[10,20,30,40]
+print(a)
+[10, 20, 30, 40]
+print(type(a))
+<class 'list'>
+
+List are one of the 4 build data types in Python used to store collection of data
+the other 3 are Tuple,set and Dictionary all with different qualiteies and usage.
+
+a[0]
+10
+a[0:3]
+[10, 20, 30]
+a[::2]
+[10, 30]
+a[-3:-1]
+[20, 30]
+
+
+Allows Duplicates
+=================
+Yes It will allow the duplicates
+name=['azar','mohamed','azar','sheik']
+print(name)
+['azar', 'mohamed', 'azar', 'sheik']
+name[0]
+'azar'
+name[2]
+'azar'
+name[-1]
+'sheik'
+len(name)
+4
+list1=['azar',100,True,40,"male"]
+print(list1)
+['azar', 100, True, 40, 'male']
+
+list()constructor
+=================
+list2=list(("a1","a2","a3","a4"))
+print(list2)
+['a1', 'a2', 'a3', 'a4']
+print(type(list2))
+<class 'list'>
+
+list1=["azar","mohamed","sheik"]
+print(list1)
+['azar', 'mohamed', 'sheik']
+if "azar" in list1:
+    print("Yes data is found")
+
+    
+Yes data is found
+if "azar1" in list1:
+    print("Yes data is found")
+else:
+    print("No data is not found")
+
+    
+No data is not found
+
+list1
+['azar', 'mohamed', 'sheik']
+list1[0]="azar1"
+list1
+['azar1', 'mohamed', 'sheik']
+list1
+['azar1', 'mohamed', 'sheik']
+list1[0:3]=["a1","b1"]
+list1
+['a1', 'b1']
+
+Insert Items:
+============
+--To insert a new item without replacing any of the existing values we can use the insert() function.
+
+list1
+['a1', 'b1']
+list1.insert(2,"c1")
+list1
+['a1', 'b1', 'c1']
+list1.insert(3,"d1")
+list1
+['a1', 'b1', 'c1', 'd1']
+
+list1.insert(1,"azar1")
+list1
+['a1', 'azar1', 'b1', 'c1', 'd1', 'e1']
+
+append()
+========
+To add an items to the end of the list.
+
+list1.append("e1")
+list1
+['a1', 'b1', 'c1', 'd1', 'e1']
+
+extend()
+========
+--To append elements from another list to the current list.
+list2=[10,20,30]
+list1.extend(list2)
+list1
+['a1', 'azar1', 'b1', 'c1', 'd1', 'e1', 10, 20, 30]
+
+remove()
+========
+list1
+['a1', 'azar1', 'b1', 'c1', 'd1', 'e1', 10, 20, 30]
+list1.remove('a1')
+list1
+['azar1', 'b1', 'c1', 'd1', 'e1', 10, 20, 30]
+list1.remove('d1')
+list1
+['azar1', 'b1', 'c1', 'e1', 10, 20, 30]
+
+pop()
+=====
+list1
+['azar1', 'b1', 'c1', 'e1', 10, 20, 30]
+list1.pop(1)
+'b1'
+list1.pop()
+30
+list1
+['azar1', 'c1', 'e1', 10, 20]
+
+list1.pop(-1)
+20
+
+list1
+['azar1', 'c1', 'e1', 10]
+
+del()
+=====
+del list1[0]
+list1
+['c1', 'e1', 10]
+
+list2.clear()
+list2
+[]
+
+Using Loop through a list
+==========================
+list1
+['c1', 'e1', 10]
+for x in list1:
+    print(x)
+
+    
+c1
+e1
+10
+
+list1
+['c1', 'e1', 10]
+for i in range(len(list1)):
+    print(i)
+
+
+list1=["a1","a2","a3","a4"]
+i=0
+while(i<len(list1)):
+    print(list[i])
+    i=i+1
+
+    
+list[0]
+list[1]
+list[2]
+list[3]
+
+
+list1=['a1', 'a2', 'a3', 'a4']
+newlist=[]
+for i in list1:
+    if "a2" in i:
+        newlist.append(i)
+
+print(newlist)
+
+[5, 4, 2, 1]
+list1
+[5, 4, 2, 1]
+list1.reverse()
+list1
+[1, 2, 4, 5]
+list1
+[1, 2, 4, 5]
+my1=list1.copy()
+my1
+[1, 2, 4, 5]
+my1
+[1, 2, 4, 5]
+my2=list(my1)
+my2
+[1, 2, 4, 5]
+list3=my1+my2
+list3
+[1, 2, 4, 5, 1, 2, 4, 5]
+my1
+[1, 2, 4, 5]
+my2
+[1, 2, 4, 5]
+    
+0
+1
+2
+
+
+Tuples
+=======
+Tuples are used to store multiple items in a single variable.
+
+A tuple is a collection which is ordered and unchangeable.
+
+()--->A tuple
+
+tup1=(10,20,30,40)
+print(tup1)
+(10, 20, 30, 40)
+
+print(type(tup1))
+<class 'tuple'>
+tup2=(10,"azar",2.5)
+print(tup2)
+(10, 'azar', 2.5)
+print(type(tup2))
+<class 'tuple'>
+tup1
+(10, 20, 30, 40)
+tup1[0]=100
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    tup1[0]=100
+TypeError: 'tuple' object does not support item assignment
+
+Tuples is an allow the duplicates
+=================================
+
+tup1=(10,20,30,40,40)
+print(tup1)
+(10, 20, 30, 40, 40)
+
+tup1=(10,20,30,40,40)
+print(tup1)
+(10, 20, 30, 40, 40)
+print(len(tup1))
+5
+tup3=("azar")
+type(tup3)
+<class 'str'>
+tup3=("azar",)
+tup3
+('azar',)
+type(tup3)
+<class 'tuple'>
+
+list1=[10,20,30,40]
+type(list1)
+<class 'list'>
+list2=tuple(list1)
+list2
+(10, 20, 30, 40)
+type(list2)
+<class 'tuple'>
+
+
+tup1=(10,20,30,40,50)
+print(tup1)
+(10, 20, 30, 40, 50)
+type(tup1)
+<class 'tuple'>
+tup1[0:1]
+(10,)
+tup1[0:3]
+(10, 20, 30)
+tup1[-4:-1]
+(20, 30, 40)
+tup1
+(10, 20, 30, 40, 50)
+if "10" in tup1:
+    print("Yes","found")
+
+    
+if 10 in tup1:
+    print("Yes","found")
+
+    
+Yes found
+
+x=("azar","mohamed","sheik")
+y=list(x)
+y[1]="azar1"
+x=tuple(y)
+print(x)
+('azar', 'azar1', 'sheik')
+
+x.remove('azar')
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    x.remove('azar')
+AttributeError: 'tuple' object has no attribute 'remove'
+y=list(x)
+y.remove('azar1')
+x=tuple(y)
+x
+('azar', 'sheik', 'mohamed')
+del x
+x
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    x
+NameError: name 'x' is not defined
+
+Unpacking a Tuple:
+==================
+When we create a tuple we normally assign values to it.This is called packing a tuple
+
+But in Python we are also allowed to extract the values back into variables.This is called "unpacking"
+
+(a1,a2,a3,a4,a5)=tup1
+print(a1)
+10
+print(a2)
+20
+print(a3)
+30
+print(a4)
+40
+print(a5)
+50
+tup2=(10,20,30,40)
+(a1,a2,*a3)=tup2
+a1
+10
+a2
+20
+a3
+[30, 40]
+
+Loops in Tuples
+================
+list1=("azar1","mohamed","sheik")
+for x in list1:
+    print(x)
+
+    
+azar1
+mohamed
+sheik
+for i in range(len(list1)):
+    print(list1[i])
+
+    
+azar1
+mohamed
+sheik
+list1
+('azar1', 'mohamed', 'sheik')
+i=0
+while i<len(list1):
+    print(list1[i])
+    i=i+1
+
+    
+azar1
+mohamed
+sheik
+tup1=(10,20,30,40)
+tup2=("azar","mohamed","sheik")
+
+tup3=tup1+tup2
+tup3
+(10, 20, 30, 40, 'azar', 'mohamed', 'sheik')
+
+tup1=(10,20,30,40)
+tup2=("azar","mohamed","sheik")
+
+tup3=tup1+tup2
+tup3
+(10, 20, 30, 40, 'azar', 'mohamed', 'sheik')
+tup3*2
+(10, 20, 30, 40, 'azar', 'mohamed', 'sheik', 10, 20, 30, 40, 'azar', 'mohamed', 'sheik')
+
+
+Python Tuples Methods
+=====================
+count()--Return the  number of times a specified value occures in a tuple
+index()--Searches the tuples for a specified value and return the positions of where it was found.
+
+tup5=(10,10,20,30,40,10)
+x=tup5.count(10)
+x
+3
+
+a=tup5.index(4)
+a
+
+Tuple-List-Set-Dic
+===================
+
+In Python has a set of build in methods:
+========================================
+
+add()
+
+clear()
+
+copy()
+
+difference()
+
+discard()
+
+pop()
+
+remove()
+
+update()
+
+union()
+
+Python Set
+==========
+--A Python set is the collection of the unordered items
+--Each elements in the set must be unique,immutable
+--The set remove the duplicate elements sets are mutable which means we can modify it after its creation.
+empname={"mohamed","Azar","Azar","shiek"}
+print(empname)
+{'Azar', 'shiek', 'mohamed'}
+print(type(empname))
+<class 'set'>
+empname
+{'Azar', 'shiek', 'mohamed'}
+for i in empname:
+    print(i)
+
+    
+Azar
+shiek
+mohamed
+
+set1={}
+print(set1)
+{}
+set2=set()
+print(set2)
+set()
+print(type(set1))
+<class 'dict'>
+print(type(set2))
+<class 'set'>
+
+Adding items to the set
+=======================
+--Python provides the add()method and update()method which can be used to add some particular item to the 
+set.
+--The add()methods is used to add a single elements whereas the update() method is used to add multiple elements to the
+set
+
+studname=set(["azar","mohamed","mohamed1","azar1"])
+print(studname)
+{'azar1', 'azar', 'mohamed', 'mohamed1'}
+studname.add("azar2")
+studname.add("azar3")
+studname
+{'azar3', 'azar1', 'azar2', 'mohamed1', 'azar', 'mohamed'}
+for i in studname:
+    print(i)
+
+    
+azar3
+azar1
+azar2
+mohamed1
+azar
+mohamed
+
+
+studname.update(["a1","b1","c1"])
+studname
+{'azar3', 'a1', 'azar1', 'azar2', 'mohamed1', 'azar', 'b1', 'c1', 'mohamed'}
+studname.discard("a1")
+studname
+{'azar3', 'azar1', 'azar2', 'mohamed1', 'azar', 'b1', 'c1', 'mohamed'}
+studname.remove("azar1")
+studname
+{'azar3', 'azar2', 'mohamed1', 'azar', 'b1', 'c1', 'mohamed'}
+studname.pop()
+'azar3'
+#studname.clear()
+
+Python Set Operations:
+======================
+--Set can be performed mathematical operations such as union,intersection,difference and symmetric difference
+
+
+Union of Set
+=============
+To Combine two or more sets into one set in Python,Use the union()function.All of the characteristics from each combined set are
+present in the final set.
+
+
+s1={"a1","b1","c1"}
+s2={"a2","b2","c2"}
+print(s1|s2)
+{'a1', 'c2', 'b2', 'b1', 'c1', 'a2'}
+
+print(s1.union(s2))
+
+Intersection of sets
+=====================
+--To taken only the items in all sets being compared are includede in the final set
+
+s1
+{'a1', 'c1', 'b1'}
+s2
+{'c2', 'b2', 'a2'}
+print(s1&s2)
+set()
+s3={"a2","b2","c3"}
+print(s2&s3)
+{'a2', 'b2'}
+print(s2.intersection(s3))
+{'a2', 'b2'}
+
+
+Intersection_update()
+======================
+--The intersection_update() method removes the items from the original set that are not present in both the set.
+
+s1.intersection_update(s2,s3)
+s1
+set()
+s4={"a2","a4","b2"}
+s4.intersection_update(s2,s3)
+s4
+{'b2', 'a2'}
+
+s5={"a2","b2","d2"}
+print(s5-s2)
+{'d2'}
+print(s5.difference(s2))
+{'d2'}
+a={1,2,3,4,5,6}
+b={1,2,9,8,10}
+c=a^b
+print(c)
+{3, 4, 5, 6, 8, 9, 10}
+c=a.symmetric_difference(b)
+c
+{3, 4, 5, 6, 8, 9, 10}
+
+
+Dictionary
+==========
+--Dictionaries are used to store data values in key:value pairs
+
+--A dictionary is a collection which is ordered and do not allow the duplicates.
+
+dict1={"pid":1001,"pname":"apple","pprice":1000}
+type(dict1)
+<class 'dict'>
+print(dict1)
+{'pid': 1001, 'pname': 'apple', 'pprice': 1000}
+print(dict1["1001"])
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    print(dict1["1001"])
+KeyError: '1001'
+print(dict1["pid"])
+1001
+print(len(dict1))
+3
+
+dict2={"brand":"mobile","status":False,"year":2013,"model":["m1","m2","m3","m4"]}
+print(dict2)
+{'brand': 'mobile', 'status': False, 'year': 2013, 'model': ['m1', 'm2', 'm3', 'm4']}
+print(dict2[model])
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    print(dict2[model])
+NameError: name 'model' is not defined
+dict2["model1"]
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    dict2["model1"]
+KeyError: 'model1'
+dict2["model"]
+['m1', 'm2', 'm3', 'm4']
+
+#dict()method
+t1=dict(name="mohamed",age=34,country="india")
+print(t1)
+{'name': 'mohamed', 'age': 34, 'country': 'india'}
+dict1
+{'pid': 1001, 'pname': 'apple', 'pprice': 1000}
+x=dict1.get("pid")
+x
+1001
+x=dict1.keys()
+x
+dict_keys(['pid', 'pname', 'pprice'])
+x=dict1.values()
+x
+dict_values([1001, 'apple', 1000])
+x=dict1.items()
+x
+dict_items([('pid', 1001), ('pname', 'apple'), ('pprice', 1000)])
+
+x=dict1.get("pid")
+x
+1001
+x=dict1.keys()
+x
+dict_keys(['pid', 'pname', 'pprice'])
+x=dict1.values()
+x
+dict_values([1001, 'apple', 1000])
+x=dict1.items()
+x
+dict_items([('pid', 1001), ('pname', 'apple'), ('pprice', 1000)])
+dict1
+{'pid': 1001, 'pname': 'apple', 'pprice': 1000}
+if "pid" in dict1:
+    print("Yes found the data")
+
+    
+Yes found the data
+if "pid1" in dict1:
+    print("Yes found")
+else:
+    print("No data found")
+
+    
+No data found
+
+
+Change values
+==============
+You can change the value of a specific item by referring to its keyname
+
+dict1={101:"a1",102:"a2",103:"a3",104:"a4"}
+type(dict1)
+<class 'dict'>
+print(dict1)
+{101: 'a1', 102: 'a2', 103: 'a3', 104: 'a4'}
+dict1[101]="b1"
+dict1
+{101: 'b1', 102: 'a2', 103: 'a3', 104: 'a4'}
+
+Update Dictionary
+==================
+The update()method will update the dictionary with the items from the given argument.
+
+The argument must be a dictionary or an iterable object with key:Value pairs
+
+dict1
+{101: 'b1', 102: 'a2', 103: 'a3', 104: 'a4'}
+dict1.update({101:"b2"})
+
+dict1
+{101: 'b2', 102: 'a2', 103: 'a3', 104: 'a4'}
+
+Removing Items
+==============
+There are several methods to remove items from a dictionary
+dict1
+{101: 'b2', 102: 'a2', 103: 'a3', 104: 'a4'}
+dict1.pop(101)
+'b2'
+dict1.popitem()
+(104, 'a4')
+
+del keyword
+===========
+The del keyword removes the item with the specified key name
+
+dict1={101:"a1",102:"a2",103:"a3",104:"a4"}
+print(dict1)
+{101: 'a1', 102: 'a2', 103: 'a3', 104: 'a4'}
+type(dict1)
+<class 'dict'>
+del dict1[101]
+dict1
+{102: 'a2', 103: 'a3', 104: 'a4'}
+del dict1
+dict1
+
+dict1.clear()
+
+dict1
+{}
+
+Python-Loop Dictionaries
+========================
+You can loop through a dictionary by using a for loop
+
+When looping through a dictionary the return value are the keys of the dictionary.
+
+
+dict1={101:"a1",102:"a2",103:"a3",104:"a4"}
+for i in dict1:
+    print(i)
+
+    
+101
+102
+103
+104
+for i in dict1.items():
+    print(i)
+
+    
+(101, 'a1')
+(102, 'a2')
+(103, 'a3')
+(104, 'a4')
+for i in dict1.values():
+    print(i)
+
+    
+a1
+a2
+a3
+a4
+for i in dict1.keys():
+    print(i)
+
+    
+101
+102
+103
+104
+
+Copy Dictionaries
+=================
+You cannot copy a dictionary simply by typing dict2=dict1
+
+dict2 will only be a reference to dict1 and changes made in dict1 will automatically also be made in dict2.
+
+there are way to make a copy 
+
+copy()
+
+dict1={101:"a1",102:"a2",103:"a3",104:"a4"}
+dict1
+{101: 'a1', 102: 'a2', 103: 'a3', 104: 'a4'}
+mydict=dict1.copy()
+mydict
+{101: 'a1', 102: 'a2', 103: 'a3', 104: 'a4'}
+mydict1=dict(dict1)
+mydict1
+{101: 'a1', 102: 'a2', 103: 'a3', 104: 'a4'}
+
+
+Nested Dictionaries
+====================
+A dictionary can contain dictionaries this is called nested dictionaries.
+
+
+dict2={
+    "c1":{
+    "name":"azar",
+    "age":33
+    },
+    "c2":{
+    "name":"mohamed",
+    "age":34
+    }
+ }
+dict2
+{'c1': {'name': 'azar', 'age': 33}, 'c2': {'name': 'mohamed', 'age': 34}}
+
+Access the Nested dic..
+=====================
+
+print(dict2["c1"])
+{'name': 'azar', 'age': 33}
+print(dict2["c2"])
+{'name': 'mohamed', 'age': 34}
+print(dict2["c1"]["name"])
+azar
+print(dict2["c2"]["name"])
+mohamed
+
+
+What is Stack?
+==============
+A Stack is a linear data Structure where data is arranged objects on over another.
+
+It Store the data in LIFO.
+
+The data is stored in a similar order
+
+
+Two operations to be performed
+
+PUSH and POP
+
+Push operations is when we add an element
+
+Pop operations is when we remove an element from the stack
+
+Methods of Stacks
+=================
+
+empty()--It return trus it the stack is empty
+
+size()--It return the length of the stack
+
+top()---This method returns an address of the last elements of the stack
+
+push(d)--This method add the element 'd' at the end of the stack
+
+pop()--This method removes the topmost elements of the stack
+
+The time complexity is  O(1)
+
+
+We can implement a stack in Python in the different ways
+
+List
+deque
+LifoQueue
+
+Implementation of List
+=======================
+
+my_stack=[]
+my_stack.append('x')
+my_stack.append('y')
+my_stack.append('z')
+my_stack
+['x', 'y', 'z']
+print(my_stack.pop())
+z
+print(my_stack)
+['x', 'y']
+
+Implementation of deque
+=========================
+The collection module provide the deque class
+
+The deque is "deck" double ended queue
+
+The time complexity is O(1)
+
+
+from collections import deque
+my=deque()
+my.append('a')
+my.append('b')
+my.append('c')
+my
+deque(['a', 'b', 'c'])
+my.pop()
+'c'
+my
+deque(['a', 'b'])
+
+Implementation using LifoQueue Modules
+==================================
+
+empty()
+maxsize()
+get()
+full()
+put()
+
+
+from queue import LifoQueue
+mystack=LifoQueue(maxsize=5)
+print(mystack.qsize())
+0
+mystack.put('x')
+mystack.put('y')
+            
+mystack.put('z')
+            
+print("Stack is Full",mystack.full())
+            
+Stack is Full False
+print("Size of Stack",mystack.qsize())
+            
+Size of Stack 3
+mystack.put('a')
+            
+mystack.put('b')
+            
+print("Stack is Full",mystack.full())
+            
+Stack is Full True
+
+Example
+========
+s1=input(("Enter the s1 value is"))
+            
+Enter the s1 value ismam
+if(s1==s1[::-1]):
+    print("This letter is a palindrome")
+else:
+    print("This is letter is a not palindrome")
+
+o/p:
+====   
+This letter is a palindrome
+
+Queue in Python
+===============
+A Queue is a linear type of data structure used to store the data in a sequentially.
+
+The concept of queue is based on the FIFO which means First in FirstOut
+
+REAR--Inserted
+
+FRONT-removed
+
+Operations in Python
+====================
+Enqueue--The enqueue is an operation where we add items to the queue
+
+Dequeue--Remove
+
+Front--Inserted the data front end
+
+Rear--removed data in rear end
+
+Methods
+=======
+put(item)--insert the element to the queue
+
+get()--extract the elements from the queue
+
+empty()--To check whether a queue is empty or not It returns true if queue is empty
+
+qsize()--This function returns the length of the queue
+
+full()--If the queue is full returns true otherwise false
+
+
+Adding the data to the list
+============================
+q1=[]
+q1.append('a1')
+q1.append('a2')
+q1.append('a3')
+print(q1)
+['a1', 'a2', 'a3']
+
+Everytime I added the data to end of the list
+
+from queue import Queue
+q1=Queue()
+q1.put('a1')
+q1.put('a2')
+q1.put('a3')
+q1.put('a4')
+print(q1)
+<queue.Queue object at 0x000002B1CD8645D0>
+print(q1.get())
+a1
+print(q1.get_nowait())
+a2
+
+print(q1.get())
+a3
+while(q1.empty()==False):
+    print(q1.queue[0],end="")
+    q1.get()
+
+    
+a4'a4'
+
+deque
+=====
+The deque class can be used in both Queue and as Stack because it removes and adds elements.
+
+from collections import deque
+q1=deque()
+q1.append('a1')
+q1.append('a2')
+q1.append('a3')
+print(q1)
+deque(['a1', 'a2', 'a3'])
+deque(['a1','a2','a3'])
+deque(['a1', 'a2', 'a3'])
+print(q1.popleft())
+a1
+
+Multiprocessing Queue class
+============================
+--The multiprocessing queue class is used to implement queued items for processed in parallel by multicurrent workers.
+
+from multiprocessing import Queue
+q1=Queue()
+q1.put('a1')
+q1.put('a2')
+q1.put('a3')
+q1.put('a4')
+print(q1.get())
+a1
+print(q1.get())
+a2
+print(q1)
+<multiprocessing.queues.Queue object at 0x0000023FFB4545D0>*
+
+PriorityQueue Class
+===================
+The priority queue implements uses and shares the same time and space
+from queue import PriorityQueue
+q1=PriorityQueue()
+q1.put((1,'a1'))
+q1.put((2,'a2'))
+q1.put((3,'a3'))
+while not q1.empty():
+    next_item=q1.get()
+    print(next_item)
+
+
+Python Lambda function
+======================
+--A lambda function is a small anonymous function
+
+--A lambda function can take any number of arguments but can only have one expression
+
+syntax:
+=======
+lambda arguments:expression
+x=lambda a:a+10
+print(x(5))
+15
+x=lambda a,b:a*b
+print(x(5,6))
+30
+
+def myfunc(n):
+    return lambda a:a*n
+
+my1=myfunc(2)
+print(my1(11))
+22
+my2=myfunc(3)
+print(my1(12))
+24
+
+function call itself(Task)Recurise function
+
+Python Exception Handling
+=========================
+--Exception handling is an do not distrubt normal flow of execution
+
+--In Python two different type of Exception Handling
+
+1.Syntax error
+   --This exception is raised when the interpreter encounters a syntax error in the code.
+2.Exception
+
+3.Type Error
+   --This exception is raised when an operation or function is applied to a object of the wrong type.
+4.Name Error
+   --When a variable or function name is not found in the current scope
+5.IndexError
+   --When an index is out of range for list,tuple or other sequence types.
+6.KeyError
+  --When a key is not found in a dictionary
+7.AttributeError
+  --When an attribute or method is not found on an object.
+8.IOError
+  --When an IO operation,such as reading or writing a files files due to an input or output error.
+9.ZeroDivisionError
+  --divided number of zero
+10.ImportError
+ --When an import statement fails to find or load a module.
+
+Syntax Error
+============
+amount=1000;
+if(amount>1000)
+SyntaxError: incomplete input
+if(amount==1000):
+    print("Your amount is::",amount)
+
+output:
+=======    
+Your amount is:: 1000
+
+Exception
+==========
+marks=100
+a=marks/0
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    a=marks/0
+ZeroDivisionError: division by zero
+a=marks/2
+print(a)
+50.0
+
+TypeError
+=========
+x=5
+y="welcome"
+z=x+y
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    z=x+y
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+
+x=5
+y="hello"
+try:
+    z=x+y
+except TypeError:
+    print("Error:cannot add an int and a str")
+
+    
+Error:cannot add an int and a str
+
+
+a=[1,2,3]
+try:
+    print("Second element=%d"%(a[1]))
+    print("Fourth element=%d"%(a[3]))
+except:
+    print("An error occurred")
+
+    
+Second element=2
+An error occurred
+
+Catching Specific Exception
+=============================
+--A try statement can have more than one except clause,to specify handlers for different exceptions.
+
+try:
+   #statement
+except IndexError:
+   #statement
+except ValueError:
+   #statement
+
+def fun(a):
+    if a<4:
+        b=a/(a-3)
+    print("Value of b=",b)
+try:
+    #fun(3)
+    fun(5)
+except ZeroDivisionError:
+    print("ZeroDivisionError")
+except NameError:
+    print("NameError Occurred and Handled")
+
+
+#Finally keyword in Python
+try:
+    k=5//0
+    print(k)
+except ZeroDivisionError:
+    print("Can't divide by zero")
+finally:
+    print("This is finally keyword")
+
+Raising Exception
+=================
+The raise statement allows the Programmer to force a specific exception to occur.
+try:
+    raise NameError("Hi this is raise")
+except NameError:
+    print("An Exception")
+    raise
+
+Advantage of Exception handling
+================================
+1.Improved program reliability
+2.Simplified error handling
+3.cleaner code
+4.Easier debugging
+
+Disadvantage:
+============
+1.Performance overhead
+2.Increased code complexity
+3.Possible security risks
+
+OOPs Concepts
+===============
+--An object oriented paradigm is to design the program using classes and objects.
+--To developed the real time based application.
+--The oops concepts focuses on writing the reusable code.
+--The object is related to real-world entities such as book,house,pencil..etc..
+
+Class
+Object
+Method
+Inheritance
+Polymorphism
+DataAbstraction
+Encapsulation
+
+Class
+=====
+--The class can be define as a collection of objects.
+--Its is a logical entity that has some specific attributes and methods.
+--For Example:
+   If you have an employee class
+   --It should as attributes email id,age,salary..etc
+Syntax:
+=======
+class ClassName:
+   <Statement-1>
+   . 
+   .
+   .
+  <Statement-n>
+
+Object
+=======
+--The object is an enitiy that has state and behavior.
+--It may be any real-world objects like the mouse,keyboard,chair,table,pen..etc
+
+class Car:#class name
+    def display(self):#function defination
+        print("This is display method")
+c1=Car()#object creations
+c1.display()#function calling
+
+
+class Car:
+    def __init__(self):
+        print("This is default method")
+    def display(self):
+        print("This is display function")
+s1=Car()
+s1.display()
+
+class Car:
+    def display(self,name):
+        print("Your name is::",name)
+s1=Car()
+s1.display("azar")
+
+Python Inheritance
+==================
+--Inheritance is an important aspect of the object-oriented paradigm.
+--Inheritance provides code resuability to the program because we can use an exisiting class to create a new class
+instead of creating it from scratch.
+
+Baseclass                     a=100
+       |
+Derived class             reuse this variable (a)
+
+Syntax
+=======
+class derived:class(baseclassname):
+    <<class code>>
+
+Multiple base class to be inherited
+==================================
+class class(<baseclass-1>,<baseclass-2>,.....<baseclass n>):
+    <<class code>>
+
+Types of Inheritance
+====================
+1.Single
+2.Multiple
+3.Multilevel
+
+
+Python Scope
+=============
+A variable is only available from inside the region it is created this is called scope.
+
+Local Scope 
+Global Scope
+
+LocalScope
+==========
+A variable created inside a function belongs to the local storage of that function and can only be used inside that function.
+
+def myfun1():
+   x=100#local variable
+   print(x)
+myfun1()
+
+def myfun():
+    x=300#local variable
+    def myinnerfun():
+        print(x)
+    myinnerfun()
+myfun()
+
+Global Scope
+============
+A variable created in the main body of the Python code is a global variable and belongs to the global scope
+x=300 #global variable
+def myfun1():
+    print(x)
+myfun1()
+print(x)
+
+Naming variables
+================
+If you operate with the same variable name inside and outside of a function.
+
+Python will treat them as two separate variables one available in the global and another one available in the local scope.
+
+x=300#Global variable
+def fun1():
+    x=200;#local variable
+    print(x)
+fun1()
+print(x)
+
+
+Global keyword
+==============
+If you need to create a global variable but are stuck in the local scope,you can use the global keyword
+
+def myfun():
+    global x
+    x=300
+myfun()
+print(x)
+
+FileConcepts
+============
+File handling is an important of any web application
+Python has several function for creating,reading,updating and deleting files
+
+FileHandling
+===========
+open() two parameters to be passed filename and mode
+
+Mode file Handling
+=================
+r--read
+a--append
+w--write
+x--create
+
+"t"--Text mode
+"b"--Binary mode
+
+from google.colab import files
+upload = files.upload()
+
+Syntax:
+=======
+f=open("demo.txt")
+
+f=open("demo.txt","rt")
+
+f=open("sample.txt","r")
+#print(f.read())
+#print(f.read(5))
+#print(f.readline())
+for i in f:
+    print(f.read())
+f.close()
+
+Python File Write
+================
+Write to an Existing File
+=======================
+open() function
+"a"--Append will append to the end of the file
+"w"--Write  will overwrite any existing content
+
+
+f=open("sample.txt","a")
+f.write("hai")
+f.close()
+f=open("sample.txt","r")
+print(f.read())
+
+f=open("sample.txt","w")
+f.write("haiwelcome")
+f.close()
+
+f=open("sample.txt","r")
+print(f.read())
+
+Create a New file
+=================
+f=open("myfile.txt","x")
+f=open("myfile.txt","w")
+f.write("welcome")
+
+f=open("myfile.txt","r")
+print(f.read())
+
+f.close()
+
+delete a file
+============
+To delete a file you must import the os module and run it os.remove() function
+import os
+os.remove("myfile.txt")
+
+Check if File Exit
+================
+import os
+if os.path.exists("myfile.txt"):
+    os.remove("myfile.txt")
+else:
+    print("The file does not exist")
+
+Delete the folder
+===============
+import os
+os.rmdir("yourfolder name")
+
+Handling File Exception
+======================
+try:
+    f=open("myfile.txt","r")
+    print(f.read())
+except FileNotFoundError:
+    print("Please check the file")
+
+Polymorphism in Python
+======================
+What is Polymorphism?
+======================
+--A polymorphism means having many forms.
+
+--Polymorphism means the same function name(but different argument)being used for different
+types.
+
+Inbuild Polymorphic function
+==========================
+print(len("sdlc"))
+print(len([10,20,30,40])
+
+User define polymorphic function
+===============================
+def add(x,y,z=0):
+      return x+y+z
+print(add(2,3))
+print(add(2,3,4))
+
+Class method Polymorphic
+========================
+class India():
+  def capital(self):
+    print("NewDelhi")
+  def language(self):
+    print("Hindi")
+  def type(self):
+    print("India type")
+class USA():
+  def capital(self):
+    print("Txs")
+  def language(self):
+    print("English")
+  def type(self):
+    print("usa type")
+obj_ind=India()
+obj_usa=USA()
+for country in(obj_ind,obj_usa):
+  country.capital()
+  country.language()
+  country.type()
+
+Polymorphism with Inheritance  (Method Overridng)
+=================================================
+class Bird:
+    def intro(self):
+        print("There are many types of birds")
+    def flight(self):
+        print("Most of the birds can fly but some cannot")
+class sparrow(Bird):
+    def flight(self):
+        print("Sparrows can fly")
+class ostrich(Bird):
+    def flight(self):
+        print("Ostriches cannot fly")
+obj_bird=Bird()
+obj_spr=sparrow()
+obj_ost=ostrich()
+obj_bird.intro()
+obj_bird.flight()
+obj_spr.intro()
+obj_spr.flight()
+obj_ost.intro()
+obj_ost.flight()
+
+Abstract classes in Python
+=========================
+--An abstract class can be considered a blueprint for other classes
+
+--It allows you to create a set of methods that must be created within any child classes built from the abstract classes.
+
+--A class that contains one or more abstract method  is called an abstract class
+
+--An abstract method is a method that has a declaration but does not have an implementation.
+
+from abc import ABC,abstractmethod
+class Polygon(ABC):#AbstractBaseclass
+    #@abstractmethod
+    def noofsides(self):#AbstractMethod
+        pass
+class Triangle(Polygon):
+    def noofsides(self):
+        print("I have 3 side")
+class Hexagon(Polygon):
+    def noofsides(self):
+        print("I have 6 side")
+R=Triangle()
+R.noofsides()
+K=Hexagon()
+K.noofsides()
+
+Encapsulation in Python
+======================
+--Encapsulation is one of the fundamental concepts in Object oriented Programming
+
+--It describe the idea of wrapping data and the methods that work on data within one unit.
+
+Encapsulation in Python
+
+Methods|Variable
+
+private,public protected
+
+Protected members
+==================
+Protected members are those members of the class that cannot be accessed outside the class
+but can be accessed from within the class and its subclasses.
+
+Python just follow the convention by prefixing the name of the member by a single underscore"_"
+
+Although the protected variable can be accessed out of the class as well as in the derived class.
+
+class Base:
+    def __init__(self):
+        #protected member
+        self._a=2;
+class Derived(Base):
+    def __init__(self):
+        #Calling constructor of Base class
+        Base.__init__(self)
+        print("Calling protected member of base class:",self._a)
+
+        #Modify the protected variable
+        self._a=3
+        print("Calling modified protected member outside class:",self._a)
+
+obj1=Derived()
+obj2=Base()
+#calling protected member
+print("Accessing protected memeber of obj1:",obj1._a)
+#Accessing the protected variable outside
+print("Accessing protected member of obj2:",obj2._a)
+
+Private Members
+================
+--Private members are similar to protected members the difference is that the class members declared private should neither be accessed
+outside the class nor by any base class.
+--Private instance variables that cannot be accessed except inside a class
+
+class Base:
+    def __init__(self):
+        self.a="welcome of a"
+        self.__c="welcome of c"
+#Creating a derived class
+class Derived(Base):
+    def __init__(self):
+        #calling constructor of Base class
+        Base.__init__(self)
+        print("Calling private member of base class:")
+        print(self.__c)
+#Derived code
+obj1=Base()
+print(obj1.a)
+
+Python Tkinter
+==============
+Tkinter is the standard GUI library for Python
+
+Python when combined with Tkinter provides a fast and easy way to create GUI Application.
+
+Tkinter provides basics and advanced concepts of Python Tkinter.
+
+Python Provides the standard library Tkinter for creating the Graphical User Interface for desktop 
+based application.
+
+
+1.import the Tkinter module
+
+2.Create the main application windows
+
+3.Add the widgets like labels,buttons,frames...etc to the windows
+
+4.Call the main event loop so that the action can take place on the user's computer screen.
+
+
+There are various widgets like button,canvas,checkbutton,entry..etc that are used to build the Python GUI Application
+
+1.Button
+
+2.Canvas
+
+3.Checkbutton
+
+4.Entry
+
+5.Frame
+
+6.Label
+
+7.ListBox
+
+8.Menubutton
+
+9.Menu
+
+10.Message
+
+11.Radiobutton
+
+12.Scale
+
+13.Scrollbar
+
+14.Text
+
+15.Toplevel
+
+16.Spinbox
+
+17.MessageBox
+
+import tkinter
+m=tkinter.Tk()
+m.mainloop()
+
+Python Tkinter:
+==============
+Tkinter Provides the following geometry methods
+1.pack()
+2.grid()
+3.place()
+
+pack()
+======
+The pack() widget is used to organize widgets in the block.
+
+
+widget.pack(options)
+
+from tkinter import*
+parent=Tk()
+redbutton=Button(parent,text="Red",fg="red")
+redbutton.pack(side=LEFT)
+greenbutton=Button(parent,text="Black",fg="black")
+greenbutton.pack(side=RIGHT)
+bluebutton=Button(parent,text="Blue",fg="blue")
+bluebutton.pack(side=TOP)
+blackbutton=Button(parent,text="Green",fg="red")
+blackbutton.pack(side=BOTTOM)
+parent.mainloop()
+
+grid()
+======
+The grid() geometry manger organizes the widgets in the tabular form.
+We can specify the rows and columns as the options in the method.
+
+widget.grid(options)
+
+from tkinter import *
+p=Tk()
+name=Label(p,text="Name").grid(row=0,column=0)
+e1=Entry(p).grid(row=0,column=1)
+password=Label(p,text="Password").grid(row=1,column=0)
+e2=Entry(p).grid(row=1,column=1)
+
+submit=Button(p,text="Submit").grid(row=4,column=0)
+
+rest=Button(p,text="Rest").grid(row=4,column=1)
+p.mainloop()
+
+
+place()method
+=============
+The place geometry manager organize the widgets to the specific x and y co-ordinates
+
+widget.place(options)
+
+from tkinter import *
+t1=Tk()
+t1.geometry("400x250")
+name=Label(t1,text="Name").place(x=30,y=50)
+email=Label(t1,text="Email").place(x=30,y=90)
+password=Label(t1,text="password").place(x=30,y=130)
+e1=Entry(t1).place(x=80,y=50)
+e2=Entry(t1).place(x=80,y=90)
+e3=Entry(t1).place(x=95,y=130)
+submit=Button(t1,text="Submit").place(x=30,y=160)
+Rest=Button(t1,text="Rest").place(x=90,y=160)
+t1.mainloop()
+
+
+Checkbuttton
+============
+The checkbutton is used to tack the user choices provided to the application.In other words we can say that checkbutton is used to implements
+the on/off selections.
+
+
+w=checkbutton(master,options)
+
+Examples:
+=========
+bg,activebackground,cursor,font,fg,height,image..etc
+
+from tkinter import *
+t=Tk()
+t.geometry("200x200")
+checkvar1=IntVar()
+checkvar2=IntVar()
+checkvar3=IntVar()
+
+chkbtn1=Checkbutton(t,text="C",variable=checkvar1,onvalue=0,offvalue=0,height=2,width=10)
+chkbtn2=Checkbutton(t,text="Java",variable=checkvar2,onvalue=1,offvalue=0,height=2,width=10)
+chkbtn1.pack()
+chkbtn2.pack()
+t.mainloop()
+
+CanvasExample
+==============
+
+from tkinter import *
+m1=Tk()
+w=Canvas(m1,width=40,height=60)
+w.pack()
+canvas_h=20
+canvas_w=200
+y=int(canvas_h/2)
+w.create_line(0,y,canvas_w,y)
+mainloop()
+
+LabelExample
+==============
+from tkinter import *
+r1=Tk()
+w=Label(r1,text="UserName")
+w.pack()
+r1.mainloop()
+
+ListExample
+===========
+from tkinter import *
+t=Tk()
+lb=Listbox(t)
+lb.insert(1,'Python')
+lb.insert(2,'Java')
+lb.insert(3,'C++')
+lb.pack()
+t.mainloop()
+
+
+Python TKinter Menu
+===================
+The Menu widget is used to create various types of menus(top level,pulldown and popup) in the Python Application
+
+Syntax:
+========
+w=Menu(top,options)
+
+activebackground
+
+activeborderwidth
+
+bg
+
+cursor
+
+Methods
+========
+add_command(option)
+
+add_radiobutton(options)
+
+
+add_checkbutton(options)
+
+
+add_cascade(options)
+
+Creating a top level menu
+=========================
+
+from tkinter import *
+
+top=Tk()
+
+def home():
+    print("Home")
+def addproduct():
+    print("addproduct")
+
+#Create a toplevel menu
+
+menubar=Menu()
+menubar.add_command(label="Home",command=home)
+menubar.add_command(label="AddProduct",command=addproduct)
+menubar.add_command(label="AboutUs",command=top.quit)
+
+#display the menu
+top.config(menu=menubar)
+
+top.mainloop()
+
+from tkinter import Toplevel,Button,Tk,Menu
+
+top=Tk()
+
+menubar=Menu(top)
+
+file=Menu(menubar,tearoff=0)
+
+file.add_command(label="New")
+
+file.add_command(label="Open")
+
+file.add_command(label="Save")
+
+file.add_command(label="SaveAs..")
+
+file.add_command(label="Close")
+
+
+file.add_separator()
+
+
+file.add_command(label="Exit",command=top.quit)
+
+
+menubar.add_cascade(label="File",menu=file)
+
+edit=Menu(menubar,tearoff=0)
+
+edit.add_command(label="Undo")
+
+edit.add_separator()
+
+
+
+
+top.config(menu=menubar)
+top.mainloop()
+
+Python Tkinter Canvas
+=====================
+The canvas widget is used to add the structured graphics to the Python application.It is  used to draw the graph and plots to the Python
+application.
+
+Syntax:
+======
+w=canvas(parent,options)
+
+from tkinter import *
+top=Tk()
+top.geometry("200x200")
+#Creating a simple canvas
+
+c=Canvas(top,bg="pink",height="200")
+
+c.pack()
+
+top.mainloop()
+
+
+from tkinter import *
+top=Tk()
+
+top.geometry("200x200")
+
+#Creating a simple canvas
+
+c=Canvas(top,bg="pink",height="200",width=200)
+
+arc=c.create_arc((5,10,150,200),start=0,extent=150,fill="white")
+
+c.pack()
+
+top.mainloop()
+
+Python Tkinter Spinbox
+======================
+--The spinbox widget is an alternative to the Entry widget.It Provides the range of values to the user,out of which,the user can select the one.
+
+from tkinter import *
+
+top=Tk()
+
+top.geometry("200x200")
+
+spin=Spinbox(top,from_=10,to=20)
+
+spin.pack()
+
+top.mainloop()
+
+RadioButton
+===========
+The RadioButton used to implement one-of-many selection in the Python Application.
+w=Radiobutton(top,option)
+
+Options:
+========
+activebackground
+activeforeground
+anchor
+bg
+bitmap
+borderwith
+command
+cursor
+font
+
+Python MongoDB
+================
+--Python can be used in database application one of the most popular NoSQL database is Monogodb
+
+Software link to downloaded
+============================
+https://www.mongodb.com/try/download/community
+
+MongoDb
+=========
+--MongoDb Stores data in JSON like documents
+
+In cmd you can install the monogodb plugins
+
+>python -m pip install pymongo
+
+C:\Users\azart\AppData\Local\Programs\Python\Python311\Scripts>python -m pip install pymongo
+
+Test the code
+=============
+import pymongo
+
+Creating the Database
+=====================
+--To Create a database in Monogodb start by creating a MongoClient Object then specify a connection URL with correct
+ip address and the name of the database you want to create.
+
+Example 1
+==========
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+print(mydb)
+
+print(my1.list_database_names())
+
+Example 2
+==========
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+mycol=mydb["customer"]
+
+collist=mydb.list_collection_names()
+
+if "customer" in  collist:
+    print("Found")
+else:
+    print("Not Found")
+
+Example 3
+==========
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+mycol=mydb["customer"]
+
+mydict={"name":"azar","address":"krr","salary":1000}
+
+x=mycol.insert_one(mydict)
+
+print("Inserted")
+
+Example 4
+==========
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+mycol=mydb["customer"]
+
+mydict=[{"name":"azar1","address":"krr","salary":1000},
+        {"name":"azar2","address":"slm","salary":2000}]
+
+x=mycol.insert_many(mydict)
+
+#x=mycol.insert_one(mydict)
+
+print("Inserted")
+
+print(x.inserted_ids)
+
+#Insert Multiple Documents with Specified IDs
+==============================================
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+mycol=mydb["customer"]
+
+mylist=[{"_id":1,"name":"mohamed1","address":"uk1","salary":10000},
+        {"_id":2,"name":"mohamed2","address":"uk2","salary":20000}]
+
+x=mycol.insert_many(mylist)
+
+print(x.inserted_ids)
+
+Example  6
+===========
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+mycol=mydb["customer"]
+
+#x=mycol.find_one()
+
+#for x in mycol.find():
+    #print(x)
+
+#print(x)
+
+for x in mycol.find({},{"_id":1,"name":1,"address":1}):
+    print(x)
+
+Example 7
+==========
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+mycol=mydb["customer"]
+
+
+#myquery={"address":"uk1"}
+
+myquery={"address":{"$lt":"b"}}
+
+mydoc=mycol.find(myquery)
+
+for x in mydoc:
+    print(x)
+
+Example 8
+==========
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+mycol=mydb["customer"]
+
+
+mydoc=mycol.find().sort("name",-1)
+
+for x in mydoc:
+    print(x)
+
+Example 9
+==========
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+mycol=mydb["customer"]
+
+myquery={"address":"slm"}
+
+#mycol.delete_one(myquery)
+
+mycol.delete_many(myquery)
+
+print(x.deleted_count,"documents delete")
+
+Example 10
+==========
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+mycol=mydb["customer"]
+
+mycol.drop()
+
+Example 11
+==========
+import pymongo
+
+my1=pymongo.MongoClient("mongodb://localhost:27017")
+
+mydb=my1["mydatabase"]
+
+mycol=mydb["customer"]
+
+
+myquery={"address":"uk1"}
+
+newvalue={"$set":{"address":"karur"}}
+
+mycol.update_one(myquery,newvalue)
+#mycol.update_many()
+for x in mycol.find():
+    print(x)
+
+Example 12
+===========
+Limit()
+
+Project Explainations:
+=====================
+Project Name:Hotel Management Software
+FrontEnd:Python
+Modules:
+========
+1.CheckINN
+2.Show Guest list
+3.Check out
+4.Get info of any guest
+5.Exit
+DataScience
+============
+What is Data?
+---Data is a collection of facts and representations
+--It is a set of characters used to collect store or transmit infromation for a specific purpose.
+--Data can be in any formi i.e)text,image,audio..etc
+--In computer you will be collected your data is 0's or 1's
+
+Type of data
+=============
+1.Qualitative data
+--Related with numbers and different representation to be measured
+--Two type of data to be taken
+--Discrete data
+   --Example:Number of Students in a class
+--Continuous data
+  --Example:Infinite possible values in a person weight
+2.Big Data
+--Huge data collected or we taken as represented terabytes or petabytes
+
+DataScience..
+=============
+--DataScience is the study of handling and extracting from large amount of data using some modern tools and algorithms.
+--DataScience can also be define as collecting,storing and analyszing dataset to build models that help in better decision-making.
+
+DataScience Works
+===================
+1.Raw data is collected from various sources and combined at a single space.
+
+2.Collected data is cleaned from various types of erros and removed
+
+3.Implementated different methods Machine Learning algorithms,Data Science tools..etc
+
+4.DataAnalysis of dataset
+
+5.Representations to the clients.
+
+Importance of datascience
+=========================
+DataScience helps in extracting meaningful data
+
+Various sectors such as e-commerces,medicine,Social media..etc
+
+Benefits of dataScience
+======================
+--Improves business predictions
+--Interpretation of complex data
+--Better decision making
+--Imporve data security
+
+Application of datascience
+========================
+1.Search Engines
+2.Social Media and Entertainment
+3.E-Commerce website
+4.Image Recognition
+5.Speech Recognition
+6.HealthCare
+7.Sports
+
+Python lib--Numpy,Pandas,Matplotlib
+
+Numpy Concepts
+================
+UseCase-1
+Social media opinion Tracker
+UseCase-2
+Percentage of Unemployed Youth
+
+What is Numpy?
+===============
+--Numpy is a Python library used for working with arrays
+
+--It is also has functions for working in domain of linear algebra and matrices
+
+--Numpy was created in 2005 by Travis oliphant.It is an open source 
+
+--Numpy stands for Numerical Python
+
+Why use Numpy?
+===============
+In Python we have lists that serve the purpose of arrays,but they are slow to process
+
+Numpy aims to provide an array that is up to 50x faster that traditional Python list.
+
+The array object in Numpy is called ndarray.It Provides a lot of supporting functions that make working with ndarray.
+
+conda install numpy
+
+pip install numpy
+
+Numpy Programs
+===============
+import numpy as np
+arr=np.array([10,20,30,40])
+print(arr)
+[10 20 30 40]
+type(arr)
+<class 'numpy.ndarray'>
+
+#Dimensions in Array
+arr=np.array(10)
+print(arr)
+10
+print(arr.ndim)
+0
+arr1=np.array([10,20,30,40])
+print(arr1)
+[10 20 30 40]
+print(arr.ndim)
+0
+arr2=np.array([[1,2,3],[4,5,6]])
+arr2
+array([[1, 2, 3],
+       [4, 5, 6]])
+print(arr2.ndim)
+2
+arr3=np.array([[[1,2,3],[4,5,6]],[[1,2,3],[4,5,6]]])
+arr3
+array([[[1, 2, 3],
+        [4, 5, 6]],
+
+       [[1, 2, 3],
+        [4, 5, 6]]])
+print(arr3.ndim)
+3
+
+arr4=np.array([1,2,3,4],ndmin=10)
+arr4
+array([[[[[[[[[[1, 2, 3, 4]]]]]]]]]])
+
+Access the array elements
+==========================
+import numpy as np
+arr=np.array([10,20,30,40])
+arr
+array([10, 20, 30, 40])
+type(arr)
+<class 'numpy.ndarray'>
+
+print(arr)
+[10 20 30 40]
+print(arr[0])
+10
+print(arr[0:3])
+[10 20 30]
+print(arr[-3:-1])
+[20 30]
+print(arr[::2])
+[10 30]
+print(arr[0]*arr[1])
+200
+
+#Copy Function
+x=arr.copy()
+x
+array([10, 20, 30, 40])
+arr[0]=43
+print(arr)
+[43 20 30 40]
+print(x)
+[10 20 30 40]
+
+
+x=arr.view()
+x
+array([43, 20, 30, 40])
+x
+array([43, 20, 30, 40])
+
+#Reshaping from 1d and 2d
+arr=np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+newarr=arr.reshape(4,3)
+print(newarr)
+[[ 1  2  3]
+ [ 4  5  6]
+ [ 7  8  9]
+ [10 11 12]]
+
+arr=np.array([1,2,3])
+for x in arr:
+    print(x)
+
+    
+1
+2
+3
+arr=np.array([[1,2,3],[4,5,6]])
+for x in arr:
+    for y in x:
+        print(y)
+arr1=np.array([1,2,3])
+arr2=np.array([4,5,6])
+arr=np.concatenate((arr1,arr2))
+print(arr)
+[1 2 3 4 5 6]
+
+#Stack Function
+
+#Pandas Concepts
+---Pandas is a Python library
+--Pandas is used to analyze data
+What is pandas?
+--Pandas is a Python library used for working with data sets.
+--It has functions for analyzing,cleaning,exploring and manipulating data.
+--Pandas is an Panel data was created by mckinney in 2008
+
+pip install pandas
+
+Pandas Series
+=============
+What is a Series?
+--A pandas Series is like a column in a table
+--It is a one-dimensional array holding data of any type.
+
+
+
+
+
+#Matpotlib
+
+#MySql
+
+
+(US)
+
+Python Modules
+==============
+What is a Module?
+--A file Containing a set of functions you want to include in your application
+
+Create a Module
+===============
+--To Create a module just save the code you want in a file with file extension .py
+
+mymodule.py
+===========
+def Sample(name):
+    print("Your value is::",name)
+
+#def Sample(name):
+   # print("Your value is::",name)
+p1={
+"name":"azar",
+"age":33,
+"country":"india"
+    }
+
+
+mainmodulep1.py
+===============
+import mymodule
+
+mymodule.Sample("mohamed")
+
+import mymodule
+
+#mymodule.Sample("mohamed")
+
+a=mymodule.p1["age"]
+print(a)
+
+Renaming a Module
+=================
+import mymodule as my1
+
+#mymodule.Sample("mohamed")
+
+a=my1.p1["age"]
+print(a)
+
+#Built-In Modules
+==================
+import platform
+x=platform.system()
+print(x)
+
+Python With MySQL
+==================
+--Python can be used in database applications
+
+--python -m pip install mysql-connector-python
+
+Creating the Connection
+=======================
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root")
+print(mydb)
+
+Create a Database
+====================
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root")
+mycursor=mydb.cursor()
+mycursor.execute("create database mydb")
+print("DataBase Created")
+
+Return a list of Your System database
+===================================
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root",database="mydb")
+mycursor=mydb.cursor()
+mycursor.execute("show databases")
+for x in mycursor:
+    print(x)
+
+Create a Table in particular database
+===================================
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root",database="mydb")
+mycursor=mydb.cursor()
+mycursor.execute("create table customers(name varchar(100),email varchar(100),salary integer(100))")
+print("Inserted Succfully")
+
+Insert the data into the database
+=================================
+
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root",database="mydb")
+mycursor=mydb.cursor()
+sql="insert into customers(name,email,salary)values(%s,%s,%s)"
+val=("azar","azar@gmail.com","1000")
+mycursor.execute(sql,val)
+
+mydb.commit()
+
+print(mycursor.rowcount,"RecordInserted")
+
+Insert Multiple Rows
+====================
+--To insert multiple rows into a table use the executemany() method
+
+--The second parameter of the executemany() method is a list of tuples containing the data you want to insert
+
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root",database="mydb")
+mycursor=mydb.cursor()
+sql="insert into customers(name,email,salary)values(%s,%s,%s)"
+val=[("azar2","azar2@gmail.com","2000"),
+     ("azar1","azar1@gmail.com","1000")
+     ]
+mycursor.executemany(sql,val)
+
+mydb.commit()
+
+print(mycursor.rowcount,"RecordInserted")
+
+Insert one row and return the ID
+================================
+print(mycursor.lastrowid)
+
+To select all records from the "Customers" table and display the result
+==================================================================
+import mysql.connector
+mydb=mysql.connector.connect(host="localhost",user="root",password="root",database="mydb")
+mycursor=mydb.cursor()
+
+mycursor.execute("select name,email from customers")
+
+myresult=mycursor.fetchall();//fetchone()
+
+for x in myresult:
+    print(x)
+
+Selecr with a Filter
+===================
+When selecting records from a table you can filter the selection by using the where statement
+
+ Python Graphics
+================
+
+Turtle is a Python feature like a drawing board,which lets us command a turtle to draw all over it.
+
+Method	Parameter	Description
+Turtle()	None	Creates and returns a new turtle object
+forward()	amount	Moves the turtle forward by the specified amount
+backward()	amount	Moves the turtle backward by the specified amount
+right()	angle	Turns the turtle clockwise
+left()	angle	Turns the turtle counterclockwise
+penup()	None	Picks up the turtle’s Pen
+pendown()	None	Puts down the turtle’s Pen
+up()	None	Picks up the turtle’s Pen
+down()	None	Puts down the turtle’s Pen
+color()	Color name	Changes the color of the turtle’s pen
+fillcolor()	Color name	Changes the color of the turtle will use to fill a polygon
+heading()	None	Returns the current heading
+position()	None	Returns the current position
+goto()	x, y	Move the turtle to position x,y
+begin_fill()	None	Remember the starting point for a filled polygon
+end_fill()	None	Close the polygon and fill with the current fill color
+dot()	None	Leave the dot at the current position
+stamp()	None	Leaves an impression of a turtle shape at the current location
+shape()	shapename	Should be ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’
+Plotting using Turtle
+
+To make use of the turtle methods and functionalities, we need to import turtle.”turtle” comes packed with the standard Python package and need not be installed externally. The roadmap for executing a turtle program follows 4 steps:  
+
+Steps to follow the turtle
+=========================
+Import the turtle module
+Create a turtle to control.
+Draw around using the turtle methods.
+Run turtle.done().
+
+Example1
+=========
+import turtle
+wn=turtle.Screen()
+wn.bgcolor("light green")
+wn.title("Turtle Concepts")
+s1=turtle.Turtle()
+
+Example2
+=========
+import turtle
+wn=turtle.Screen()
+wn.bgcolor("light green")
+wn.title("Turtle Concepts")
+s1=turtle.Turtle()
+s1.forward(100)
+#s1.done()
+
+Example 3
+==========
+import turtle
+s1=turtle.Turtle()
+for i in range(4):
+    s1.forward(50)
+    s1.right(90)
+turtle.done()
+
+Example 4
+==========
+import turtle
+s1=turtle.Turtle()
+s1.right(75)
+s1.forward(100)
+for i in range(4):
+    s1.right(144)
+    s1.forward(100)
+turtle.done()
+
+Example 5
+===========
+import turtle
+screen=turtle.Screen()
+screen.bgcolor("white")
+
+p1=turtle.Turtle()
+p1.speed(0)
+
+p1.fillcolor("red")
+p1.begin_fill()
+
+p1.circle(100)
+
+p1.end_fill()
+
+p1.hideturtle()
+
+p1.done()
+
+Example 6
+==========
+import turtle
+wn=turtle.Screen()
+wn.bgcolor("light green")
+s1=turtle.Turtle()
+s1.color("blue")
+
+def sqrfunc(size):
+    for i in range(4):
+        s1.fd(size)
+        s1.left(90)
+        size=size+5
+sqrfunc(6)
+sqrfunc(26)
+sqrfunc(46)
+sqrfunc(66)
+sqrfunc(86)
+sqrfunc(106)
+sqrfunc(126)
+sqrfunc(146)
+
+Example 7
+=============
+import turtle
+loadw=turtle.Screen()
+turtle.speed(2)
+for i in range(100):
+    turtle.circle(5*i)
+    turtle.circle(-5*i)
+    turtle.left(i)
+
+turtle.exitonclick()
+
+
+

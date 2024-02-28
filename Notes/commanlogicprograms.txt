@@ -1,0 +1,64 @@
+reverse=0; 
+while (n != 0)
+   {
+      reverse = reverse * 10;
+      reverse = reverse + n%10;
+      n       = n//10;
+   }
+ ---------------------------------------
+s=0;
+while(n>0)
+  {
+    rem=n%10;
+    s=s+rem*rem*rem;
+    n=n//10;
+    }
+if(n==s)
+{
+}
+else
+{
+}
+---------------------------------------------
+while (t != 0)
+   {
+      remainder = t % 10;
+      sum       = sum + remainder;
+      t         = t // 10;
+   }
+-----------------------------------
+ int n, first = 0, second = 1, next, c;
+     
+      for ( c = 0 ; c < n ; c++ )
+   {
+      if ( c <= 1 )
+         next = c;
+      else
+      {
+         next = first + second;
+         first = second;
+         second = next;
+      }
+    print(next)
+   }
+------------------------------------------
+fact=1;
+ for (c = 1; c <= n; c++)
+    fact = fact * c;
+ 
+--------------------------------
+Swap two variables without using third variable.
+    int a=5,b=10;
+//process one
+    a=b+a;
+    b=a-b;
+    a=a-b;
+   
+
+
+
+
+
+
+
+

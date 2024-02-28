@@ -1,0 +1,82 @@
+Exercise: Find Even Numbers
+
+Write a Python function called find_even_numbers that takes a list of integers as input and returns a new list containing only the even numbers from the original list.
+
+
+Exercise: Reverse List
+
+Write a Python function called reverse_list that takes a list as input and returns a new list with the elements reversed.
+
+
+Exercise: Extract Middle Elements
+
+Write a Python function called extract_middle_elements that takes a list as input and returns a new list containing the middle elements (or element) of the input list.
+
+Task 1:
+=======
+print the second item in the list1 
+
+list1=[10,20,30,40]
+print(_____)
+
+Task 2:
+=======
+Change the value from 10 to 100 in the list1
+
+
+list1=[10,20,30,40]
+___________=____________
+print(_____)
+
+Task 3:
+=======
+Use the append method to add the 60 to the list1
+
+
+list1=[10,20,30,40]
+___________________
+print(_____)
+
+
+Task 4:
+======
+use the insert method to add the "400" as the second item in the list1
+
+list1=[10,20,30,40]
+___________________"400"
+print(_____)
+
+
+Task 5:
+=======
+Use the remove method to remove "400" from the list1
+
+list1=[10,20,30,40]
+print(_____)
+
+
+Task 6:
+=======
+Use Negtive indexing to print the last item in the list1
+
+
+list1=[10,20,30,40]
+print(_____)
+
+
+Task 7:
+=======
+Use a range of indexes to print the third,fourth and fifth item in the list1
+list1=[10,20,30,40]
+print(list1[_____])
+
+
+Task 8:
+=======
+Use the Corrent syntax to print the number  of the items in the list1
+
+list1=[10,20,30,40]
+print([_____])
+
+
+
